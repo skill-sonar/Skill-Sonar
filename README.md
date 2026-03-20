@@ -1,7 +1,6 @@
    <p align="center">
-     <img src="./assets/skill-sonar.jpg" alt="Skill Sonar Logo" width="120" />
+     <img src="./assets/skill-sonar.png" alt="Skill Sonar Logo" width="120" />
    </p>
-
 
    <h1 align="center">Skill Sonar</h1>
 
