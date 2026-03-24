@@ -2,7 +2,6 @@
      <img src="./assets/skill-sonar.png" alt="Skill Sonar Logo" width="120" />
    </p>
 
-   <h1 align="center">Skill Sonar</h1>
 
    <p align="center">
      A lifecycle-aware security skill for AI agents, covering both <strong>pre-install inspection</strong> and <strong>runtime monitoring</strong>.
