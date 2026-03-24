@@ -2,8 +2,6 @@
 
 Validate both tool selection and tool call arguments for necessity, minimality, alignment, and safety.
 
----
-
 ## Part A: Tool Selection Guard
 
 ### When to Trigger
@@ -23,8 +21,6 @@ Before committing to a specific tool for a task step.
 - If a less-privileged or read-only tool exists: prefer it.
 - If no tool is necessary: skip the call.
 - If the tool seems disproportionate: `require_replan`.
-
----
 
 ## Part B: Tool Call Guard
 
