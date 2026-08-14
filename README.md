@@ -48,39 +48,34 @@ Download the Skill Sonar files directly, then move the skill into the `skills` d
 use skill-sonar to check xxx skills
 ```
 
-### Monitor the current session at runtime
+### Guard a task at runtime
 
 ```
-use skill-sonar to monitor this session
+For the task below, you must call the Skill tool with `skill-sonar` before taking any action. Use `skill-sonar` as the required first-step guard for this task. Follow its decision strictly before proceeding with any subsequent tool call or skill invocation.
+
+[Your task here]
 ```
 
-## 🎛️ Modes
+## 🎛️ Protection Options
 
-Skill Sonar supports **three operating modes**:
+Skill Sonar can protect your workflow at **two different stages**. You can use either check independently or combine both for broader coverage.
 
-### 1. Full protection
+### Pre-install protection
 
-Enable both the **pre-install check** and the **runtime check**.
+Use the **pre-install check** before installing or enabling a skill. This helps identify potential risks before the skill becomes available for use.
 
-```
-use skill-sonar for full protection
-```
+### Runtime protection
 
-### 2. Pre-install only
+Use the **runtime guard** before executing a task. At runtime, `skill-sonar` acts as the required first-step guard and should return its decision before any subsequent tool call or skill invocation.
 
-Enable only the **pre-install check**.
+### Combined protection
 
-```
-only use the pre-install check
-```
+For broader coverage, use both:
 
-### 3. Runtime only
+- Check skills before installation.
+- Use Skill Sonar again as a runtime guard before task execution.
 
-Enable only the **runtime check**.
-
-```
-only use the runtime check
-```
+The two protections are independent, so you can use either one or both depending on your workflow.
 
 ## 🎯 What It Does
 
